@@ -27,7 +27,7 @@ const RoomList = ({ rooms, onJoinRoom }) => {
                 className="flex justify-between items-center border-b py-2"
               >
                 <div>
-                  <h1 className="font-semibold text-xl">Oda Kodu: {room.id}</h1>
+                  <h1 className="font-semibold text-xl">Room: {room.id}</h1>
                   <p className="text-sm text-gray-600 font-bold">
                     Players: {room.players} / 4
                   </p>
